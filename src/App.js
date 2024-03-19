@@ -10,12 +10,12 @@ import SearchIcon from './search.svg';
 const API_URL = 'http://www.omdbapi.com?apikey=d04dcb1';
 
 const movie = {
-        "Title": "Batman v Superman: Dawn of Justice",
-        "Year": "2016",
-        "imdbID": "tt2975590",
-        "Type": "movie",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-    
+    "Title": "Batman v Superman: Dawn of Justice",
+    "Year": "2016",
+    "imdbID": "tt2975590",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+
 }
 
 const App = () => {
@@ -38,16 +38,16 @@ const App = () => {
             <h1>MoviesMe</h1>
 
             <div className="search">
-                <input 
+                <input
                     placeholder="Search for movies"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
 
-                <img 
-                   src={SearchIcon}
-                   alt="Search"
-                   onClick={() => searchMovies(searchTerm)}
+                <img
+                    src={SearchIcon}
+                    alt="Search"
+                    onClick={() => searchMovies(searchTerm)}
                 />
             </div>
 
@@ -63,6 +63,21 @@ const App = () => {
                         <h2>No movies found</h2>
                     </div>
                 )}
+
+
+            <div className="footer">
+                <div className="img">
+                    <img
+                        src='./logo192.svg'
+                        alt="MOVIESME"
+                        width={1200}
+                        height={250}
+                    />
+                </div>
+                <div className="copyright">
+                    &#169; Copyright 2023-24. Designed by Nihal Sheikh.
+                </div>
+            </div>
         </div>
     );
 }
