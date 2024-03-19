@@ -10,5 +10,6 @@ Link: ``
 - [x] React.js
 - [x] JavaScript
 - [x] Vite
+- [x] HTML
 - [x] CSS
 - [x] Netlify
