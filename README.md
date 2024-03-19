@@ -18,4 +18,8 @@ Link: `https://moviesme-react.netlify.app/`
 - [x] Vite
 - [x] HTML
 - [x] CSS
+<<<<<<< HEAD
 - [x] Netlify
+=======
+- [x] Netlify
+>>>>>>> 04ee2ed6da3deaeecc56931942edd25a17ff0a51
