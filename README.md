@@ -1,4 +1,4 @@
-![Screenshot (751)](https://github.com/sheikhnihal/moviesme/assets/163961091/e02331be-be3f-487a-9783-952ee92aed8d)# MOVIESME: Movie Suggestions Made Better
+# MOVIESME: Movie Suggestions Made Better
 ---
 
 Images of the project
