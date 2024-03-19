@@ -7,7 +7,7 @@ import SearchIcon from './search.svg';
 
 // API Key: d04dcb1
 
-const API_URL = 'http://www.omdbapi.com?apikey=d04dcb1';
+const API_URL = 'https://www.omdbapi.com?apikey=d04dcb1';
 
 const movie = {
     "Title": "Batman v Superman: Dawn of Justice",
